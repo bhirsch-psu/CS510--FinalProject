@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Benjamin Hirsch Personal History</title>
+    <meta
+      name="description"
+      content="Final Project Personal Page for CS510 by and about Benjamin Hirsch"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="javascript" href="script.js" />
+  </head>
+
+  <body>
+    <nav class="navbar" id="myNavbar">
+      <section class="header" id="myHeader">
+        <a class="hotkey" href="#home">home</a>
+        <a class="hotkey" href="#about">about</a>
+        <a class="hotkey" href="#works">past work / skills</a>
+        <a class="hotkey" href="#projects">projects</a>
+        <a class="hotkey" href="#contact">contact</a>
+      </section>
+    </nav>
+    <div class="content">
+      <div class="home" id="home">
+        <h1 class="title">Benjamin Hirsch</h1>
+        <h2 class="subtitle">PSU Master's Student</h2>
+      </div>
+
+      <h3 class="section">About Me</h3>
+
+      <div class="about" id="about">
+        <img
+          src="Images/20160610_153319.jpg"
+          alt="Author's Picture"
+          width="400"
+          height="476"
+          class="potrait"
+        />
+        <p class="bio">
+          Hello, I am currently a master’s student at Portland State University,
+          studying computer science. I originally graduated from Washington
+          State University in 2002 with a degree in Psychology and worked in
+          that field for over 15 years. Recently I decided to change my field of
+          study after getting burnt out with my previous career and decided to
+          try my hand here.
+        </p>
+      </div>
+
+      <h3 class="section">Past Work / Skills</h3>
+
+      <div class="works" id="works">
+        <ul>
+          <h4>Computer Skills</h4>
+          <li>Languages: C/C++, Java, JS, CSS</li>
+          <li>Experience with SQL and Non SQL Databases</li>
+          <li>Networking</li>
+          <li>Windows/Linux System Admin</li>
+          <li>Current Work as IT for PSU College of Engineering</li>
+        </ul>
+        <ul>
+          <h4>Soft Skills</h4>
+          <li>Excellent Verbal and Written Communication</li>
+          <li>Good Time Management Skills</li>
+          <li>Experience Working in Stressful Environments</li>
+          <li>Public Speaking Experience</li>
+        </ul>
+      </div>
+      <h3 class="section">Projects</h3>
+      <div class="projects" id="projects">
+        <div class="proj">
+          <a href="https://github.com/bhirsch-psu/Prog1---Maze">Maze Project</a>
+          <p class="project">A simple maze project for CS201</p>
+        </div>
+        <div class="proj">
+            <a href="https://github.com/bhirsch-psu/Prog2---CS202">CS202 Project</a>
+            <p class="project">An assignment from CS202</p>
+        </div>
+      </div>
+    </div>
+    <h3 class="section">Contact Form</h3>
+    <form id="contact" action="">
+        <h1>Contact Form</h1>
+        <!-- Add your code here -->
+
+        <label for="Name" class="form-element">
+          Name:
+          <input type="text" name="name" required="required" class="ipt" />
+        </label>
+
+        <label for="Email" class="form-element">
+          Email:
+          <input type="email" name="email" class="ipt" />
+        </label>
+
+        <input type="submit" value="Submit" class="btn btn-primary"/>
+        <input type="reset" value="Reset" class="btn btn-secondary"/>
+      </form>
+  </body>
+</html>
